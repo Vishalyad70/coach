@@ -1,0 +1,241 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    /* font-family: 'Lato', sans-serif; */
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.grey_btn {
+    padding: 12px 35px;
+    border-radius: 30px;
+    background: rgb(63, 91, 246);
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    background: #F48C7D;
+    transition: all .3s linear;
+    text-decoration: none;
+}
+
+.grey_btn:hover {
+    background-color: #202020;
+}
+
+.delete_btn {
+    border: 1px solid #F48C7D;
+    background-color: transparent;
+    color: #F48C7D;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+
+/*--side navbar--*/
+
+.open_layout .side_nav {
+    width: 100%;
+    max-width: 300px;
+    position: fixed;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    background-color: #F48C7D;
+    overflow-y: scroll;
+}
+
+.open_layout .side_nav::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.open_layout .side_nav {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.open_layout .side_nav .op_l {
+    width: 100%;
+    border-bottom: 1px solid #F4A79C;
+    margin-bottom: 30px;
+}
+
+.open_layout .side_nav .op_l .logo_img {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 13%;
+    max-width: 80px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 10%;
+}
+
+.open_layout .side_nav .nav_list ul {
+    padding: 30px;
+}
+
+.open_layout .side_nav .nav_list ul li {
+    padding: 13px 30px;
+    transition: all .3s linear;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.open_layout .side_nav .nav_list ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.open_layout .side_nav .nav_list ul li img {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.open_layout .side_nav .nav_list ul .active,
+.open_layout .side_nav .nav_list ul li:hover {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.open_layout .side_nav .nav_list ul .active img,
+.open_layout .side_nav .nav_list ul li:hover img {
+    filter: invert(14%) sepia(36%) saturate(3333%) hue-rotate(306deg) brightness(97%) contrast(97%);
+}
+
+.open_layout .side_nav .nav_list ul .active a,
+.open_layout .side_nav .nav_list ul li:hover a {
+    color: #F48C7D !important;
+}
+
+
+/*--Right Panel--*/
+
+.side_wrapper {
+    margin-left: 300px;
+}
+
+
+/*--header--*/
+
+header {
+    margin-bottom: 20px;
+}
+
+header .action_box {
+    border-bottom: 2px solid #e9e9e9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+header .navbar .hamburger {
+    cursor: pointer;
+}
+
+header .navbar .hamburger span {
+    background-color: #F48C7D;
+    display: block;
+    margin-bottom: 5px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+header .navbar .hamburger span:nth-child(1) {
+    width: 30px;
+}
+
+header .navbar .hamburger span:nth-child(2) {
+    width: 20px;
+}
+
+header .navbar .hamburger span:nth-child(3) {
+    width: 30px;
+}
+
+header .navbar-nav {
+    margin-left: auto;
+}
+
+.notific {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.notific a img {
+    width: 30px;
+    height: 30px;
+}
+
+header .navbar-nav .dropdown-toggle {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: end;
+}
+
+header .navbar-nav .dropdown-toggle img {
+    width: 40px;
+    height: 40px;
+    object-position: center;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+header .navbar-nav .dropdown-toggle h5 {
+    font-size: 16px;
+    color: #F48C7D;
+    margin-bottom: 0px;
+}
+
+header .navbar-nav .dropdown-toggle::after {
+    color: #F48C7D;
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-bottom: 0;
+    margin-left: 8px;
+    border-left: 5px solid transparent;
+}
+
+
+/*--Media Queries--*/
+
+@media only screen and (max-width:1920px) {
+    .side_wrapper .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .open_layout .side_nav {
+        display: none;
+    }
+    .side_wrapper {
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,75 @@
+.title_word {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.eve_box {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #4B4B4B;
+    box-shadow: 0px 0px 8px rgba(117, 117, 117, 0.25);
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+/*--title_box --*/
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    vertical-align: middle;
+}
+
+.event_box table thead th {
+    padding: 18px 20px;
+    background-color: #F48C7D;
+    border-bottom: transparent;
+    color: #fff;
+}
+
+.event_box table tbody tr th,
+.event_box table tbody tr td {
+    padding: 12px 20px;
+    border-bottom: none;
+}
+
+.event_box .form-select {
+    background-color: #DCDCDC;
+    padding: 8px 12px;
+}
+
+.delte_one {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+
+/*--Event Details--*/
+
+
+/*--media Queries--*/
+
+@media only screen and (max-width:575px) {
+    .eve_box .event_details .event_title,
+    .eve_box .event_details .event_date {
+        display: block;
+    }
+    .event_img {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .head_nox {
+        display: block;
+    }
+    .eve_box .new_link {
+        text-align: initial;
+    }
+}

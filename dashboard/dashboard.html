@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin panel | Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../commoncss/bootstrap.css">
+    <link rel="stylesheet" href="../../commoncss/main.css">
+    <link rel="stylesheet" href="./dashboard.css">
+</head>
+
+<body>
+    <section class="open_layout">
+        <div class="side_nav">
+            <div class="op_l">
+                <div class="logo_img">
+                    <img src="../../images/logo.svg" alt="">
+                </div>
+            </div>
+            <div class="nav_list">
+                <ul>
+                    <li class="active">
+                        <a href="#"><img src="../../images/dashboard.svg" alt=""><span>Dashboard</span></a>
+                    </li>
+                    <li>
+                        <a href="../coach_list/coach-list.html">
+                            <img src="../../images/coach.svg" alt=""><span>Coach List</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../userlist//userlist.html">
+                            <img class="nft" src="../../images/users.svg" alt=""><span>Users List</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <img src="../../images/appoinment.svg" alt=""><span>Appointment</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../login/login.html">
+                            <img src="../../images/LOGOUT.svg" alt=""><span>Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="side_wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <header>
+                            <nav class="navbar navbar-expand-lg ">
+
+                                <div class="action_box">
+                                    <div class="hamburger">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+
+                                    <div class=" navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav  mb-2 mb-lg-0">
+                                            <li class="notific">
+                                                <a href=""><img src="../../images/notification.svg" alt=""></a>
+                                            </li>
+
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <img src="../../images/user_prf.png" alt="">
+                                                    <h5>Sham Manik Shah</h5>
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+                            </nav>
+                        </header>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="title_word mb-4">Dashboard</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="first_status">
+                            <div class="status_name">
+                                <span><img src="../images/users.svg" alt=""></span>
+                                <h5>Total no. of Users</h5>
+                            </div>
+                            <div class="nim_status">
+
+                                <h5>1500</h5>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="first_status">
+                            <div class="status_name">
+                                <span><img src="../images/coach.svg" alt=""></span>
+                                <h5>Total no. of Coaches</h5>
+                            </div>
+                            <div class="nim_status">
+
+                                <h5>1500</h5>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="first_status">
+                            <div class="status_name">
+                                <span><img src="../images/appoinment.svg" alt=""></span>
+                                <h5>Total no. of Appointment</h5>
+                            </div>
+                            <div class="nim_status">
+
+                                <h5>1500</h5>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!--Modals-->
+
+            <script src="../../js/jquery.js"></script>
+            <script src="../../js//bootstrap.js"></script>
+    </section>
+
+</body>
+
+</html>

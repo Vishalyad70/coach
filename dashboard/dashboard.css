@@ -1,0 +1,39 @@
+.title_word {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.first_status {
+    padding: 20px;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px rgba(213, 213, 213, 0.5);
+}
+
+.first_status .status_name span {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #F48C7D;
+}
+
+.first_status .status_name span img {
+    width: 30px;
+    height: 30px;
+}
+
+.first_status .status_name h5 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.first_status .nim_status h5 {
+    font-size: 35px;
+    font-weight: 700;
+}
